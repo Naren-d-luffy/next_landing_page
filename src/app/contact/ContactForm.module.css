@@ -1,0 +1,80 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 800px;
+    background-color: #F1F4FF;
+  }
+  
+  .img {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 750px;
+    height: auto;
+  }
+  
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    background-color:#C3D6FE;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family:"Roboto",sans-serif;
+    font-weight:bold;
+    color:#111B47;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-family:"Roboto",sans-serif;
+    font-weight:normal;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #111b4797;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #111B47;
+    font-family:"Roboto",sans-serif;
+    font-weight:normal;
+    background-color: #F1F4FF;
+  }
+  
+  .contact-form button {
+    background-color: #111B47;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:"Roboto",sans-serif;
+    font-weight:normal;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
